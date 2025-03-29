@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Homepage</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header class="header">
@@ -11,7 +12,7 @@
       <div class="header-nav">
         <h2 class="header-logo">
           <a href="/" title="Homepage">
-            <img class="logo-img" src="./assets/monitologo.png" alt="Monito Logo Image">
+            <img class="logo-img" src="./assets/imgs/monitologo.png" alt="Monito Logo Image">
           </a>
         </h2>
         <nav class="navigation">
@@ -33,22 +34,22 @@
       </div>
       <div class="header-action">
         <form class="form-search">
-          <img src="" alt="Seach Icon">
+          <img src="./assets/icons/icon_search.svg" alt="Seach Icon">
           <input type="text" placeholder="Search something here!" name="Search">
         </form>
         <div class="header-btn">
           <button type="button" class="btn btn-primary">Join the community</button>
         </div>
         <div class="switcher-currency">
-          <img src="" alt="Currency Flag">
+          <img src="./assets/icons/icon-flag.svg" alt="Currency Flag">
           <span class="currency">VND</span>
-          <img src="" alt="Down Arrow">
+          <img src="./assets/icons/icon-down.svg" alt="Down Arrow">
         </div>
       </div>
     </div>
   </header>
   <main class="main">
-    <section class="section section-main-banner">
+    <section class="section section-banner banner-main">
       <div class="container">
         <div class="section-content">
           <h1 class="section-title">
@@ -63,18 +64,16 @@
           <div class="section-btn">
             <button class="btn btn-outline">
               <span>View Intro</span>
-              <img src="" alt="Play icon">
+              <img src="./assets/icons/icon-right.svg" alt="Play icon">
             </button>
             <button class="btn btn-primary">Explore Now</button>
           </div>
         </div>
         <div class="section-img">
-          <img src="./assets/banner1.png" alt="Banner Main Image">
+          <img src="./assets/imgs/banner1.png" alt="Banner Main Image">
         </div>
       </div>
     </section>
-    <section class="section section-products">
-      <div class="container"></div>
     <section class="section section-products">
       <div class="container">
         <div class="section-header">
@@ -82,16 +81,18 @@
             <p class="section-subtitle">Whats new?</p>
             <h2 class="section-title">Take A Look At Some Of Our pets</h2>
           </div>
-          <button class="btn btn-outline">
-            <span>View more</span>
-            <img src="" alt="Left button">
-          </button>
+          <div class="section-action">
+            <button class="btn btn-outline">
+              <span>View more</span>
+              <img src="./assets/icons/icon-right.svg" alt="Left button">
+            </button>            
+          </div>
         </div>
         <div class="section-content">
           <ul class="list-products">
             <li class="list-item">
               <a class="card card-pet" href="/">
-                <img class="card-img" src="./assets/pet1.png" alt="Pet's image">
+                <img class="card-img" src="./assets/imgs/pet1.png" alt="Pet's image">
                 <div class="card-information">
                   <h3 class="card-title">MO231 - Pomeranian White</h3>
                   <p class="card-details">
@@ -110,7 +111,7 @@
             </li>
             <li class="list-item">
               <a class="card card-pet" href="/">
-                <img class="card-img" src="./assets/pet1.png" alt="Pet's image">
+                <img class="card-img" src="./assets/imgs/pet1.png" alt="Pet's image">
                 <div class="card-information">
                   <h3 class="card-title">MO231 - Pomeranian White</h3>
                   <p class="card-details">
@@ -129,7 +130,7 @@
             </li>
             <li class="list-item">
               <a class="card card-pet" href="/">
-                <img class="card-img" src="./assets/pet1.png" alt="Pet's image">
+                <img class="card-img" src="./assets/imgs/pet1.png" alt="Pet's image">
                 <div class="card-information">
                   <h3 class="card-title">MO231 - Pomeranian White</h3>
                   <p class="card-details">
@@ -148,7 +149,7 @@
             </li>
             <li class="list-item">
               <a class="card card-pet" href="/">
-                <img class="card-img" src="./assets/pet1.png" alt="Pet's image">
+                <img class="card-img" src="./assets/imgs/pet1.png" alt="Pet's image">
                 <div class="card-information">
                   <h3 class="card-title">MO231 - Pomeranian White</h3>
                   <p class="card-details">
@@ -167,7 +168,7 @@
             </li>
             <li class="list-item">
               <a class="card card-pet" href="/">
-                <img class="card-img" src="./assets/pet1.png" alt="Pet's image">
+                <img class="card-img" src="./assets/imgs/pet1.png" alt="Pet's image">
                 <div class="card-information">
                   <h3 class="card-title">MO231 - Pomeranian White</h3>
                   <p class="card-details">
@@ -186,7 +187,7 @@
             </li>
             <li class="list-item">
               <a class="card card-pet" href="/">
-                <img class="card-img" src="./assets/pet1.png" alt="Pet's image">
+                <img class="card-img" src="./assets/imgs/pet1.png" alt="Pet's image">
                 <div class="card-information">
                   <h3 class="card-title">MO231 - Pomeranian White</h3>
                   <p class="card-details">
@@ -205,7 +206,7 @@
             </li>
             <li class="list-item">
               <a class="card card-pet" href="/">
-                <img class="card-img" src="./assets/pet1.png" alt="Pet's image">
+                <img class="card-img" src="./assets/imgs/pet1.png" alt="Pet's image">
                 <div class="card-information">
                   <h3 class="card-title">MO231 - Pomeranian White</h3>
                   <p class="card-details">
@@ -224,7 +225,7 @@
             </li>
             <li class="list-item">
               <a class="card card-pet" href="/">
-                <img class="card-img" src="./assets/pet1.png" alt="Pet's image">
+                <img class="card-img" src="./assets/imgs/pet1.png" alt="Pet's image">
                 <div class="card-information">
                   <h3 class="card-title">MO231 - Pomeranian White</h3>
                   <p class="card-details">
@@ -248,7 +249,7 @@
     <section class="section section-banner">
       <div class="container">
         <div class="section-img">
-          <img src="./assets/banner2.png" alt="Middle Banner Image">
+          <img src="./assets/imgs/banner2.png" alt="Middle Banner Image">
         </div>
         <div class="section-content">
           <h2 class="section-title">
@@ -271,8 +272,6 @@
       </div> 
     </section>
     <section class="section section-products">
-      <div class="container"></div>
-    <section class="section section-products">
       <div class="container">
         <div class="section-header">
           <div class="section-info">
@@ -288,7 +287,7 @@
           <ul class="list-products">
             <li class="list-item">
               <a class="card card-product" href="/">
-                <img class="card-img" src="./assets/product1.png" alt="Product's image">
+                <img class="card-img" src="./assets/imgs/product1.png" alt="Product's image">
                 <div class="card-body">
                   <h3 class="card-title">NaturVet Dogs - Omega-Gold Plus Salmon Oil</h3>
                   <p class="card-details">
@@ -311,7 +310,7 @@
             </li>
             <li class="list-item">
               <a class="card card-product" href="/">
-                <img class="card-img" src="./assets/product1.png" alt="Product's image">
+                <img class="card-img" src="./assets/imgs/product1.png" alt="Product's image">
                 <div class="card-body">
                   <h3 class="card-title">NaturVet Dogs - Omega-Gold Plus Salmon Oil</h3>
                   <p class="card-details">
@@ -334,7 +333,7 @@
             </li>
             <li class="list-item">
               <a class="card card-product" href="/">
-                <img class="card-img" src="./assets/product1.png" alt="Product's image">
+                <img class="card-img" src="./assets/imgs/product1.png" alt="Product's image">
                 <div class="card-body">
                   <h3 class="card-title">NaturVet Dogs - Omega-Gold Plus Salmon Oil</h3>
                   <p class="card-details">
@@ -357,7 +356,7 @@
             </li>
             <li class="list-item">
               <a class="card card-product" href="/">
-                <img class="card-img" src="./assets/product1.png" alt="Product's image">
+                <img class="card-img" src="./assets/imgs/product1.png" alt="Product's image">
                 <div class="card-body">
                   <h3 class="card-title">NaturVet Dogs - Omega-Gold Plus Salmon Oil</h3>
                   <p class="card-details">
@@ -380,7 +379,7 @@
             </li>
             <li class="list-item">
               <a class="card card-product" href="/">
-                <img class="card-img" src="./assets/product1.png" alt="Product's image">
+                <img class="card-img" src="./assets/imgs/product1.png" alt="Product's image">
                 <div class="card-body">
                   <h3 class="card-title">NaturVet Dogs - Omega-Gold Plus Salmon Oil</h3>
                   <p class="card-details">
@@ -403,7 +402,7 @@
             </li>
             <li class="list-item">
               <a class="card card-product" href="/">
-                <img class="card-img" src="./assets/product1.png" alt="Product's image">
+                <img class="card-img" src="./assets/imgs/product1.png" alt="Product's image">
                 <div class="card-body">
                   <h3 class="card-title">NaturVet Dogs - Omega-Gold Plus Salmon Oil</h3>
                   <p class="card-details">
@@ -426,7 +425,7 @@
             </li>
             <li class="list-item">
               <a class="card card-product" href="/">
-                <img class="card-img" src="./assets/product1.png" alt="Product's image">
+                <img class="card-img" src="./assets/imgs/product1.png" alt="Product's image">
                 <div class="card-body">
                   <h3 class="card-title">NaturVet Dogs - Omega-Gold Plus Salmon Oil</h3>
                   <p class="card-details">
@@ -449,7 +448,7 @@
             </li>
             <li class="list-item">
               <a class="card card-product" href="/">
-                <img class="card-img" src="./assets/product1.png" alt="Product's image">
+                <img class="card-img" src="./assets/imgs/product1.png" alt="Product's image">
                 <div class="card-body">
                   <h3 class="card-title">NaturVet Dogs - Omega-Gold Plus Salmon Oil</h3>
                   <p class="card-details">
@@ -490,37 +489,37 @@
           <ul class="list-sellers">
             <li class="list-item">
               <a class="seller" href="/">
-                <img class="seller-img" src="./assets/sellerlogo.png" alt="Seller's Image">
+                <img class="seller-img" src="./assets/imgs/sellerlogo.png" alt="Seller's Image">
               </a>
             </li>
             <li class="list-item">
               <a class="seller" href="/">
-                <img class="seller-img" src="./assets/sellerlogo.png" alt="Seller's Image">
+                <img class="seller-img" src="./assets/imgs/sellerlogo.png" alt="Seller's Image">
               </a>
             </li>
             <li class="list-item">
               <a class="seller" href="/">
-                <img class="seller-img" src="./assets/sellerlogo.png" alt="Seller's Image">
+                <img class="seller-img" src="./assets/imgs/sellerlogo.png" alt="Seller's Image">
               </a>
             </li>
             <li class="list-item">
               <a class="seller" href="/">
-                <img class="seller-img" src="./assets/sellerlogo.png" alt="Seller's Image">
+                <img class="seller-img" src="./assets/imgs/sellerlogo.png" alt="Seller's Image">
               </a>
             </li>
             <li class="list-item">
               <a class="seller" href="/">
-                <img class="seller-img" src="./assets/sellerlogo.png" alt="Seller's Image">
+                <img class="seller-img" src="./assets/imgs/sellerlogo.png" alt="Seller's Image">
               </a>
             </li>
             <li class="list-item">
               <a class="seller" href="/">
-                <img class="seller-img" src="./assets/sellerlogo.png" alt="Seller's Image">
+                <img class="seller-img" src="./assets/imgs/sellerlogo.png" alt="Seller's Image">
               </a>
             </li>
             <li class="list-item">
               <a class="seller" href="/">
-                <img class="seller-img" src="./assets/sellerlogo.png" alt="Seller's Image">
+                <img class="seller-img" src="./assets/imgs/sellerlogo.png" alt="Seller's Image">
               </a>
             </li>
           </ul>
@@ -547,7 +546,7 @@
           </div>
         </div>
         <div class="section-img">
-          <img src="./assets/banner3.png" alt="Banner 2 Left Image">
+          <img src="./assets/imgs/banner3.png" alt="Banner 2 Left Image">
         </div>
       </div>
     </section>
@@ -567,7 +566,7 @@
           <ul class="list-blogs">
             <li class="list-item">
               <a class="card" href="/">
-                <img class="card-img" src="./assets/blog1.png" alt="Blog's Image">
+                <img class="card-img" src="./assets/imgs/blog1.png" alt="Blog's Image">
                 <div class="card-body">
                   <div class="card-tag">
                     <span>Pet knowledge</span>
@@ -582,7 +581,7 @@
             </li>
             <li class="list-item">
               <a class="card" href="/">
-                <img class="card-img" src="./assets/blog1.png" alt="Blog's Image">
+                <img class="card-img" src="./assets/imgs/blog1.png" alt="Blog's Image">
                 <div class="card-body">
                   <div class="card-tag">
                     <span>Pet knowledge</span>
@@ -597,7 +596,7 @@
             </li>
             <li class="list-item">
               <a class="card" href="/">
-                <img class="card-img" src="./assets/blog1.png" alt="Blog's Image">
+                <img class="card-img" src="./assets/imgs/blog1.png" alt="Blog's Image">
                 <div class="card-body">
                   <div class="card-tag">
                     <span>Pet knowledge</span>
@@ -672,7 +671,7 @@
         <span class="footer-copyright">© 2022 Monito. All rights reserved.</span>
         <h2 class="footer-logo">
           <a href="/" title="Homepage">
-            <img class="logo-img" src="./assets/monitologo.png" alt="Footer Monito Logo">
+            <img class="logo-img" src="./assets/imgs/monitologo.png" alt="Footer Monito Logo">
           </a>
         </h2>
         <div class="footer-policy">
